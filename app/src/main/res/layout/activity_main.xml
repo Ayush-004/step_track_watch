@@ -1,0 +1,70 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context=".MainActivity">
+
+    <androidx.wear.widget.BoxInsetLayout
+        android:id="@+id/main_box"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="16dp">
+
+            <!-- Centered App Name -->
+            <TextView
+                android:id="@+id/appName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="StepTracker"
+                android:textSize="28sp"
+                android:textStyle="bold"
+                android:textColor="@android:color/black"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:paddingBottom="16dp" />
+
+            <!-- Step Count TextView -->
+            <TextView
+                android:id="@+id/tvStepCount"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Steps: 0"
+                android:textSize="24sp"
+                android:textColor="@android:color/black"
+                android:gravity="center"
+                android:padding="16dp" />
+
+            <!-- Open Notes Button -->
+            <Button
+                android:id="@+id/btnOpenNotes"
+                android:layout_width="180dp"
+                android:layout_height="wrap_content"
+                android:text="Open Notes"
+                android:layout_marginTop="10dp" />
+
+            <!-- Open Logs Button -->
+            <Button
+                android:id="@+id/btnOpenLogs"
+                android:layout_width="180dp"
+                android:layout_height="wrap_content"
+                android:text="Open Logs"
+                android:layout_marginTop="10dp" />
+
+            <!-- View All Notes Button -->
+            <Button
+                android:id="@+id/btnViewNotes"
+                android:layout_width="180dp"
+                android:layout_height="wrap_content"
+                android:text="View All Notes"
+                android:layout_marginTop="10dp" />
+        </LinearLayout>
+
+    </androidx.wear.widget.BoxInsetLayout>
+</ScrollView>

@@ -1,0 +1,8 @@
+<!-- res/values/strings.xml -->
+
+<resources>
+    <string name="app_name">Step Tracker</string>
+    <string name="open_notes">Open Notes</string>
+    <string name="open_logs">Open Logs</string>
+    <string name="view_all_notes">View All Notes</string>
+</resources>
